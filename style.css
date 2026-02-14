@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #fdf0f5, #fce4ec);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-card {
+    background-color: #ffffff;
+    width: 70%;
+    max-width: 800px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 5px;
+    color: #b03060;
+}
+
+.tagline {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    margin-bottom: 20px;
+}
+
+.gallery img {
+    width: 220px;
+    border-radius: 15px;
+    margin: 8px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.about, .traits {
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 8px 0;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #b03060;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #8b1e45;
+    transform: scale(1.05);
+}
+
+#result {
+    margin-top: 20px;
+    display: none;
+    font-weight: bold;
+    color: #b03060;
+}
